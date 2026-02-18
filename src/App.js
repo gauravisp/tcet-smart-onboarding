@@ -25,8 +25,8 @@ const apiFetch = async (endpoint, method = "GET", body = null) => {
 // ============================================================
 // DESIGN SYSTEM
 // ============================================================
-// eslint-disable-next-line no-unused-vars
-const theme = {
+
+/*const theme = {
   navy: "#0a0f2e",
   navyMid: "#101840",
   navyLight: "#1a2455",
@@ -41,7 +41,7 @@ const theme = {
   white: "#f8fafc",
   gray: "#94a3b8",
   grayDark: "#334155",
-};
+};*/
 
 const styles = `
   @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
@@ -328,8 +328,8 @@ const STUDENT = {
   avatar: "GP",
   progress: 65,
 };
-// eslint-disable-next-line no-unused-vars
-const CHECKLIST = [
+
+/*const CHECKLIST = [
   { id: 1, category: "Documents", title: "Upload 10th Marksheet", status: "done", due: "Done", priority: "high" },
   { id: 2, category: "Documents", title: "Upload 12th / Diploma Marksheet", status: "done", due: "Done", priority: "high" },
   { id: 3, category: "Documents", title: "Submit Aadhar Card Copy", status: "done", due: "Done", priority: "medium" },
@@ -343,7 +343,7 @@ const CHECKLIST = [
   { id: 11, category: "Hostel & Campus", title: "Collect ID Card", status: "pending", due: "Mar 1", priority: "medium" },
   { id: 12, category: "Academics", title: "Download Timetable from Portal", status: "locked", due: "Mar 3", priority: "medium" },
   { id: 13, category: "Academics", title: "Register for NPTEL Courses", status: "locked", due: "Mar 5", priority: "low" },
-];
+];*/
 
 const NOTIFICATIONS = [
   { id: 1, type: "urgent", title: "LMS Activation Deadline", message: "Activate your Moodle account by Feb 19 to access lecture materials.", time: "2h ago", read: false },

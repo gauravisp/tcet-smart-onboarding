@@ -25,6 +25,7 @@ const apiFetch = async (endpoint, method = "GET", body = null) => {
 // ============================================================
 // DESIGN SYSTEM
 // ============================================================
+// eslint-disable-next-line no-unused-vars
 const theme = {
   navy: "#0a0f2e",
   navyMid: "#101840",
@@ -327,7 +328,7 @@ const STUDENT = {
   avatar: "GP",
   progress: 65,
 };
-
+// eslint-disable-next-line no-unused-vars
 const CHECKLIST = [
   { id: 1, category: "Documents", title: "Upload 10th Marksheet", status: "done", due: "Done", priority: "high" },
   { id: 2, category: "Documents", title: "Upload 12th / Diploma Marksheet", status: "done", due: "Done", priority: "high" },

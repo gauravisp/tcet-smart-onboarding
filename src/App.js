@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 
-const API = "http://localhost:5000/api";
+const API = "https://tcet-smart-onboarding-backend-production.up.railway.app/api";
 
 const apiFetch = async (endpoint, method = "GET", body = null) => {
   const token = localStorage.getItem("token");

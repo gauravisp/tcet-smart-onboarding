@@ -44,4 +44,3 @@ Deployed on → Vercel + Render
 - Trisha Pujari
 - Vibha Patil
 
-Powered by TCS · TCET ACM · SIGAI 🎓
